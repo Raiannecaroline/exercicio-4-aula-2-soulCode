@@ -1,0 +1,51 @@
+body{
+  background: azure;
+  width: 100%;
+  height: 100%;
+}
+
+header figure{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  border-radius: 50px;
+  -webkit-box-shadow: 8px 4px 19px 1px #7A7A7A; 
+  box-shadow: 8px 4px 19px 1px #7A7A7A;
+}
+
+h1{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+}
+
+h1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h3{
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section h2{
+  display: flex;
+  justify-content: center;
+}
+
+.linha{
+  border-bottom: 1px solid black;
+}
